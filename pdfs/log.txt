@@ -1,0 +1,7 @@
+20/03/2019
+- Harvard mark 1 manual de operaçao
+- manual de programaçao intel 8080
+- manual de usuario minivac 601
+- manual de operaçao minivac 601
+- descriçao funcional do computador tx-0
+- manual de usuario cpu zilog z80
