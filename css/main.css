@@ -1,0 +1,112 @@
+/*  Nome: BTD 
+    Data: 19/03/2019
+    Autor: CHFR
+*/
+
+
+/* Codigo comum no site */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paginal principal */
+.searchSpace{
+    text-align: center; /* Alinhando o select box e o botao de pesquisa */
+}
+select.escolhaCategoria {
+    width: 500px;    /* Configurando as dimensoes do select box */
+    height: 35px;
+}
+#btnPesquisar{
+    height: 35px;   /* Configurando as dimensoes do botao de pesquisa */
+    cursor: pointer;
+    border:0;
+    background: #32CD32;
+}
+.name{
+    margin-top: 50px;   /* alinhando o logo do site */
+    text-align: center;
+}
+.por{
+    text-align: center;  /* Alinhando o autor do site */
+}
+
+
+/* Pagina de categoria */
+.tituloCat{
+    margin-top: 10px;     /* Configurando o nome da categoria e o background */
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    height: 50px;
+    background: #1D1D1D;
+}
+.tituloCat p{
+    padding-top: 15px;   /* Configundo o texto do nome da categoria */
+    font-size: 20px;
+    color: white;
+}
+.menu{
+    text-align: center;   /* Pequena nav bar para retornar e avançar a pagina e ir para a home */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Anterior{
+    cursor: pointer;     /* Botao de retorno */
+    border:0;
+    width: 32px;
+    height: 32px;
+    background: url("../icons/anterior.png") no-repeat;
+}
+#Home{
+    cursor: pointer;    /* Botao de home */
+    border:0;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: url("../icons/home.png") no-repeat;
+}
+#Proximo{
+    cursor: pointer;   /* Botao de avanço */
+    border:0;
+    width: 32px;
+    height: 32px;
+    background: url("../icons/proximo.png") no-repeat;
+}
+
+/* TABELA DE CONTEUDO */
+.tabela{
+    border:1px solid#1D1D1D;  /* Configuraçoes gerais da tabela (Espaçamento entre borda e centralizaçao na pagina) */
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
+.tabela td{
+    height: 10px;     /* Configuraçao da linha da tabela */
+    padding-left: 10px;    
+}
+.autor{
+    text-align: center;     /* Configuraçao do campo de autor na tabela */
+    width: 15%; 
+}
+.ano{
+    text-align: center;    /* Configuraçao do campo de ano na tabela */
+    width: 10%; 
+}
+.link{
+    text-align: center;   /* Configuraçao do campo do botao na tabela */
+    width: 20%;  
+}
+.abrir{
+    cursor: pointer;      /* Configuraçao do botao de abrir o pdf na tabela */
+    width: 70%;
+    height: 70%;
+}
+.tabela .E{
+    background: #808080;   /* Configuraçao da linha escura na tabela */
+}
+.tabela .C{
+    background: #A9A9A9;  /* Configuraçao da linha clara na tabela */
+}
